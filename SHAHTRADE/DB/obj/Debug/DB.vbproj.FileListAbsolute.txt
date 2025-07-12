@@ -1,0 +1,17 @@
+D:\VSS\SHAHTRADE\SHAHTRADE\DB\bin\Debug\DB.dll
+D:\VSS\SHAHTRADE\SHAHTRADE\DB\bin\Debug\DB.pdb
+D:\VSS\SHAHTRADE\SHAHTRADE\DB\bin\Debug\DB.xml
+D:\VSS\SHAHTRADE\SHAHTRADE\DB\obj\Debug\DB.Resources.resources
+D:\VSS\SHAHTRADE\SHAHTRADE\DB\obj\Debug\DB.vbproj.GenerateResource.Cache
+D:\VSS\SHAHTRADE\SHAHTRADE\DB\obj\Debug\DB.dll
+D:\VSS\SHAHTRADE\SHAHTRADE\DB\obj\Debug\DB.xml
+D:\VSS\SHAHTRADE\SHAHTRADE\DB\obj\Debug\DB.pdb
+D:\GIT\SHAHTRADE\SHAHTRADE\DB\bin\Debug\DB.dll
+D:\GIT\SHAHTRADE\SHAHTRADE\DB\bin\Debug\DB.pdb
+D:\GIT\SHAHTRADE\SHAHTRADE\DB\bin\Debug\DB.xml
+D:\GIT\SHAHTRADE\SHAHTRADE\DB\obj\Debug\DB.vbprojResolveAssemblyReference.cache
+D:\GIT\SHAHTRADE\SHAHTRADE\DB\obj\Debug\DB.Resources.resources
+D:\GIT\SHAHTRADE\SHAHTRADE\DB\obj\Debug\DB.vbproj.GenerateResource.Cache
+D:\GIT\SHAHTRADE\SHAHTRADE\DB\obj\Debug\DB.dll
+D:\GIT\SHAHTRADE\SHAHTRADE\DB\obj\Debug\DB.xml
+D:\GIT\SHAHTRADE\SHAHTRADE\DB\obj\Debug\DB.pdb

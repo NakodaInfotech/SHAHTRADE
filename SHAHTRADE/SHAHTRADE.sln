@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SHAHTRADE", "SHAHTRADE\SHAHTRADE.vbproj", "{9AA38EFB-20A1-4061-8E3F-19E78669B8B4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{98F894F3-0D22-4194-86B5-6803CC37590F} = {98F894F3-0D22-4194-86B5-6803CC37590F}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BL", "BL\BL.vbproj", "{98F894F3-0D22-4194-86B5-6803CC37590F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8A9C7818-5AAA-4B59-BE29-A3F2F3F4ADD9} = {8A9C7818-5AAA-4B59-BE29-A3F2F3F4ADD9}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DB", "DB\DB.vbproj", "{8A9C7818-5AAA-4B59-BE29-A3F2F3F4ADD9}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SHAHTRADESETUP", "SHAHTRADESETUP\SHAHTRADESETUP.vdproj", "{ADE8599E-B469-49B2-A54A-69C6A475F22D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AA38EFB-20A1-4061-8E3F-19E78669B8B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA38EFB-20A1-4061-8E3F-19E78669B8B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA38EFB-20A1-4061-8E3F-19E78669B8B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA38EFB-20A1-4061-8E3F-19E78669B8B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98F894F3-0D22-4194-86B5-6803CC37590F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F894F3-0D22-4194-86B5-6803CC37590F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F894F3-0D22-4194-86B5-6803CC37590F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F894F3-0D22-4194-86B5-6803CC37590F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A9C7818-5AAA-4B59-BE29-A3F2F3F4ADD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A9C7818-5AAA-4B59-BE29-A3F2F3F4ADD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A9C7818-5AAA-4B59-BE29-A3F2F3F4ADD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A9C7818-5AAA-4B59-BE29-A3F2F3F4ADD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADE8599E-B469-49B2-A54A-69C6A475F22D}.Debug|Any CPU.ActiveCfg = Debug
+		{ADE8599E-B469-49B2-A54A-69C6A475F22D}.Debug|Any CPU.Build.0 = Debug
+		{ADE8599E-B469-49B2-A54A-69C6A475F22D}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
