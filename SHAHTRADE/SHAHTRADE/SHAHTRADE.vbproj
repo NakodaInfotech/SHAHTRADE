@@ -644,6 +644,12 @@
       <DependentUpon>recreport.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Reports\Crystal Reports\Receipt\RecReport_AASHAAYEN.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RecReport_AASHAAYEN.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Reports\Crystal Reports\Register\Ledger Reports\LedgerBookAcc_Desc.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -1883,6 +1889,10 @@
     <EmbeddedResource Include="Reports\Crystal Reports\Receipt\recreport.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>recreport.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Crystal Reports\Receipt\RecReport_AASHAAYEN.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RecReport_AASHAAYEN.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Crystal Reports\Register\Ledger Reports\LedgerBookAcc_Desc.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
