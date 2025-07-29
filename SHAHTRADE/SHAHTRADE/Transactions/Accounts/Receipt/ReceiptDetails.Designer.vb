@@ -443,8 +443,6 @@ Partial Class ReceiptDetails
         Me.GAGENTWHATSAPP.Name = "GAGENTWHATSAPP"
         Me.GAGENTWHATSAPP.OptionsColumn.AllowEdit = False
         Me.GAGENTWHATSAPP.OptionsColumn.ReadOnly = True
-        Me.GAGENTWHATSAPP.Visible = True
-        Me.GAGENTWHATSAPP.VisibleIndex = 17
         '
         'GPARTYWHATSAPP
         '
@@ -453,8 +451,6 @@ Partial Class ReceiptDetails
         Me.GPARTYWHATSAPP.Name = "GPARTYWHATSAPP"
         Me.GPARTYWHATSAPP.OptionsColumn.AllowEdit = False
         Me.GPARTYWHATSAPP.OptionsColumn.ReadOnly = True
-        Me.GPARTYWHATSAPP.Visible = True
-        Me.GPARTYWHATSAPP.VisibleIndex = 18
         '
         'GINITIALS
         '
@@ -464,7 +460,7 @@ Partial Class ReceiptDetails
         Me.GINITIALS.OptionsColumn.AllowEdit = False
         Me.GINITIALS.OptionsColumn.ReadOnly = True
         Me.GINITIALS.Visible = True
-        Me.GINITIALS.VisibleIndex = 19
+        Me.GINITIALS.VisibleIndex = 17
         '
         'GAGENTEMAILID
         '
@@ -487,7 +483,7 @@ Partial Class ReceiptDetails
         Me.GPRINT.FieldName = "PRINT"
         Me.GPRINT.Name = "GPRINT"
         Me.GPRINT.Visible = True
-        Me.GPRINT.VisibleIndex = 20
+        Me.GPRINT.VisibleIndex = 18
         Me.GPRINT.Width = 60
         '
         'CHKPRINT
