@@ -1134,6 +1134,12 @@
     <Compile Include="Transactions\Accounts\ProfitLoss\PL.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Transactions\Accounts\Receipt\Receipt Copy.Designer.vb">
+      <DependentUpon>Receipt Copy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\Accounts\Receipt\Receipt Copy.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Transactions\Accounts\Receipt\Receipt.Designer.vb">
       <DependentUpon>Receipt.vb</DependentUpon>
     </Compile>
@@ -2189,6 +2195,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Transactions\Accounts\ProfitLoss\PL.resx">
       <DependentUpon>PL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\Accounts\Receipt\Receipt Copy.resx">
+      <DependentUpon>Receipt Copy.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Transactions\Accounts\Receipt\Receipt.resx">
       <DependentUpon>Receipt.vb</DependentUpon>
