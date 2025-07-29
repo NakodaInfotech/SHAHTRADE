@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\GIT\\SHAHTRADE\\SHAHTRADE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9AA38EFB-20A1-4061-8E3F-19E78669B8B4}|SHAHTRADE\\SHAHTRADE.vbproj|d:\\git\\shahtrade\\shahtrade\\shahtrade\\transactions\\accounts\\receipt\\receiptdetails.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9AA38EFB-20A1-4061-8E3F-19E78669B8B4}|SHAHTRADE\\SHAHTRADE.vbproj|solutionrelative:shahtrade\\transactions\\accounts\\receipt\\receiptdetails.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AA38EFB-20A1-4061-8E3F-19E78669B8B4}|SHAHTRADE\\SHAHTRADE.vbproj|d:\\git\\shahtrade\\shahtrade\\shahtrade\\transactions\\accounts\\receipt\\receiptdetails.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9AA38EFB-20A1-4061-8E3F-19E78669B8B4}|SHAHTRADE\\SHAHTRADE.vbproj|solutionrelative:shahtrade\\transactions\\accounts\\receipt\\receiptdetails.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9AA38EFB-20A1-4061-8E3F-19E78669B8B4}|SHAHTRADE\\SHAHTRADE.vbproj|d:\\git\\shahtrade\\shahtrade\\shahtrade\\transactions\\accounts\\receipt\\receipt.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{9AA38EFB-20A1-4061-8E3F-19E78669B8B4}|SHAHTRADE\\SHAHTRADE.vbproj|solutionrelative:shahtrade\\transactions\\accounts\\receipt\\receipt.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
@@ -11,16 +19,16 @@
       "RelativeMoniker": "D:0:0:{98F894F3-0D22-4194-86B5-6803CC37590F}|BL\\BL.vbproj|solutionrelative:bl\\transaction\\accounts\\receipt\\clsreceiptmaster.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9AA38EFB-20A1-4061-8E3F-19E78669B8B4}|SHAHTRADE\\SHAHTRADE.vbproj|d:\\git\\shahtrade\\shahtrade\\shahtrade\\transactions\\accounts\\receipt\\receipt.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9AA38EFB-20A1-4061-8E3F-19E78669B8B4}|SHAHTRADE\\SHAHTRADE.vbproj|solutionrelative:shahtrade\\transactions\\accounts\\receipt\\receipt.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9AA38EFB-20A1-4061-8E3F-19E78669B8B4}|SHAHTRADE\\SHAHTRADE.vbproj|d:\\git\\shahtrade\\shahtrade\\shahtrade\\modules\\functions.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{9AA38EFB-20A1-4061-8E3F-19E78669B8B4}|SHAHTRADE\\SHAHTRADE.vbproj|solutionrelative:shahtrade\\modules\\functions.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9AA38EFB-20A1-4061-8E3F-19E78669B8B4}|SHAHTRADE\\SHAHTRADE.vbproj|d:\\git\\shahtrade\\shahtrade\\shahtrade\\transactions\\accounts\\receipt\\receipt copy.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{9AA38EFB-20A1-4061-8E3F-19E78669B8B4}|SHAHTRADE\\SHAHTRADE.vbproj|solutionrelative:shahtrade\\transactions\\accounts\\receipt\\receipt copy.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AA38EFB-20A1-4061-8E3F-19E78669B8B4}|SHAHTRADE\\SHAHTRADE.vbproj|d:\\git\\shahtrade\\shahtrade\\shahtrade\\transactions\\accounts\\receipt\\receipt.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{9AA38EFB-20A1-4061-8E3F-19E78669B8B4}|SHAHTRADE\\SHAHTRADE.vbproj|solutionrelative:shahtrade\\transactions\\accounts\\receipt\\receipt.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9AA38EFB-20A1-4061-8E3F-19E78669B8B4}|SHAHTRADE\\SHAHTRADE.vbproj|d:\\git\\shahtrade\\shahtrade\\shahtrade\\transactions\\accounts\\payment\\paymentmaster.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
@@ -42,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +58,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "ReceiptDetails.vb",
+              "DocumentMoniker": "D:\\GIT\\SHAHTRADE\\SHAHTRADE\\SHAHTRADE\\Transactions\\Accounts\\Receipt\\ReceiptDetails.vb",
+              "RelativeDocumentMoniker": "SHAHTRADE\\Transactions\\Accounts\\Receipt\\ReceiptDetails.vb",
+              "ToolTip": "D:\\GIT\\SHAHTRADE\\SHAHTRADE\\SHAHTRADE\\Transactions\\Accounts\\Receipt\\ReceiptDetails.vb*",
+              "RelativeToolTip": "SHAHTRADE\\Transactions\\Accounts\\Receipt\\ReceiptDetails.vb*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-07-29T14:05:09.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReceiptDetails.vb [Design]",
+              "DocumentMoniker": "D:\\GIT\\SHAHTRADE\\SHAHTRADE\\SHAHTRADE\\Transactions\\Accounts\\Receipt\\ReceiptDetails.vb",
+              "RelativeDocumentMoniker": "SHAHTRADE\\Transactions\\Accounts\\Receipt\\ReceiptDetails.vb",
+              "ToolTip": "D:\\GIT\\SHAHTRADE\\SHAHTRADE\\SHAHTRADE\\Transactions\\Accounts\\Receipt\\ReceiptDetails.vb [Design]*",
+              "RelativeToolTip": "SHAHTRADE\\Transactions\\Accounts\\Receipt\\ReceiptDetails.vb [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-07-29T14:01:41.072Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Functions.vb",
               "DocumentMoniker": "D:\\GIT\\SHAHTRADE\\SHAHTRADE\\SHAHTRADE\\Modules\\Functions.vb",
               "RelativeDocumentMoniker": "SHAHTRADE\\Modules\\Functions.vb",
@@ -63,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Receipt Copy.vb",
               "DocumentMoniker": "D:\\GIT\\SHAHTRADE\\SHAHTRADE\\SHAHTRADE\\Transactions\\Accounts\\Receipt\\Receipt Copy.vb",
               "RelativeDocumentMoniker": "SHAHTRADE\\Transactions\\Accounts\\Receipt\\Receipt Copy.vb",
@@ -76,20 +109,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ClsReceiptMaster.vb",
               "DocumentMoniker": "D:\\GIT\\SHAHTRADE\\SHAHTRADE\\BL\\Transaction\\Accounts\\Receipt\\ClsReceiptMaster.vb",
               "RelativeDocumentMoniker": "BL\\Transaction\\Accounts\\Receipt\\ClsReceiptMaster.vb",
               "ToolTip": "D:\\GIT\\SHAHTRADE\\SHAHTRADE\\BL\\Transaction\\Accounts\\Receipt\\ClsReceiptMaster.vb",
               "RelativeToolTip": "BL\\Transaction\\Accounts\\Receipt\\ClsReceiptMaster.vb",
-              "ViewState": "AgIAAOwAAAAAAAAAAAAIwAsBAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAO4AAAAAAAAAAAAcwAsBAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-07-29T06:32:07.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Module1.vb",
               "DocumentMoniker": "D:\\GIT\\SHAHTRADE\\SHAHTRADE\\SHAHTRADE\\Modules\\Module1.vb",
               "RelativeDocumentMoniker": "SHAHTRADE\\Modules\\Module1.vb",
@@ -102,13 +135,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Receipt.vb",
               "DocumentMoniker": "D:\\GIT\\SHAHTRADE\\SHAHTRADE\\SHAHTRADE\\Transactions\\Accounts\\Receipt\\Receipt.vb",
               "RelativeDocumentMoniker": "SHAHTRADE\\Transactions\\Accounts\\Receipt\\Receipt.vb",
               "ToolTip": "D:\\GIT\\SHAHTRADE\\SHAHTRADE\\SHAHTRADE\\Transactions\\Accounts\\Receipt\\Receipt.vb",
               "RelativeToolTip": "SHAHTRADE\\Transactions\\Accounts\\Receipt\\Receipt.vb",
-              "ViewState": "AgIAAKgIAAAAAAAAAAA3wLoIAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAA0FAAAAAAAAAAAkwDcFAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-07-29T05:52:46.281Z",
               "EditorCaption": ""
@@ -127,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "PaymentMaster.vb",
               "DocumentMoniker": "D:\\GIT\\SHAHTRADE\\SHAHTRADE\\SHAHTRADE\\Transactions\\Accounts\\Payment\\PaymentMaster.vb",
               "RelativeDocumentMoniker": "SHAHTRADE\\Transactions\\Accounts\\Payment\\PaymentMaster.vb",
@@ -140,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "receipt_advice.Designer.vb",
               "DocumentMoniker": "D:\\GIT\\SHAHTRADE\\SHAHTRADE\\SHAHTRADE\\Reports\\Crystal Reports Design\\receipt_advice.Designer.vb",
               "RelativeDocumentMoniker": "SHAHTRADE\\Reports\\Crystal Reports Design\\receipt_advice.Designer.vb",
