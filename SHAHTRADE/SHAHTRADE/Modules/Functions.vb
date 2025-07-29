@@ -457,7 +457,25 @@ line1:
             Cursor.Current = Cursors.Default
         End Try
     End Sub
-
+    Sub FILLBANK(ByRef CMBBANK As ComboBox)
+        Try
+            If CMBBANK.Text.Trim = "" Then
+                Dim objclscommon As New ClsCommonMaster
+                Dim dt As DataTable
+                dt = objclscommon.search(" PARTYBANK_name ", "", " PARTYBANKMaster ", " and PARTYBANK_YEARID = " & YearId)
+                If dt.Rows.Count > 0 Then
+                    dt.DefaultView.Sort = "PARTYBANK_name"
+                    CMBBANK.DisplayMember = "PARTYBANK_name"
+                    CMBBANK.Text = ""
+                End If
+                CMBBANK.DataSource = dt
+                CMBBANK.SelectedIndex = -1
+                CMBBANK.SelectAll()
+            End If
+        Catch ex As Exception
+            Throw ex
+        End Try
+    End Sub
     Sub fillCOUNTRY(ByRef cmbname As ComboBox)
         Try
             If cmbname.Text.Trim = "" Then

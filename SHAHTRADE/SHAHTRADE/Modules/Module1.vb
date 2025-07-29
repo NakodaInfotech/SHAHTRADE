@@ -67,6 +67,7 @@ Module Module1
     Public PRINTEWAYBILL As Boolean
     Public ALLOWMANUALCNDN As Boolean
     Public CNDNA5 As Boolean
+    Public ISLOCKYEAR As Boolean = False
 
     Public CMPEINVOICECOUNTER As Integer    'Used for COMPANY'S EINVOICE COUNTER
     Public EINVOICEEXPDATE As Date          'Used for COMPANY'S EINVOICE EXPIRY DATE
