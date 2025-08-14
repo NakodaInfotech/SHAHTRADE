@@ -105,7 +105,12 @@ line1:
                 ALLOWMANUALCNDN = Convert.ToBoolean(DT.Rows(0).Item("MANUALCNDN"))
                 CNDNA5 = Convert.ToBoolean(DT.Rows(0).Item("CNDNA5"))
 
-                If ClientName = "ALENCOT" Then
+                If ClientName = "AASHAAYEN" Then
+                    If Now.Date > DateTime.Parse("15.08.2029 00:00") Then
+                        Dim DTNEW As DataTable = OBJCMN.Execute_Any_String("UPDATE VERSION SET VERSION_NO='1.0.0000'", "", "")
+                        GoTo LINE1
+                    End If
+                ElseIf ClientName = "ALENCOT" Then
                     If Now.Date > DateTime.Parse("15.09.2025 00:00") Then
                         Dim DTNEW As DataTable = OBJCMN.Execute_Any_String("UPDATE VERSION SET VERSION_NO='1.0.0000'", "", "")
                         GoTo LINE1

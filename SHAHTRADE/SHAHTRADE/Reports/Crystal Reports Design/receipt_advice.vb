@@ -9,7 +9,8 @@ Public Class receipt_advice
     Public recno As Integer
     Public recname As String
     Public REGNAME As String
-    Dim obj_rectype As New recreport
+    Dim RPTREC As New recreport
+    Dim RPTREC_AASHAAYEN As New RecReport_AASHAAYEN
 
     Private Sub receipt_advice_KeyDown(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles Me.KeyDown
         If e.Control = True And e.KeyCode = Keys.P Then
@@ -32,13 +33,19 @@ Public Class receipt_advice
 
 
             With crConnecttionInfo
-                .ServerName = Servername
+                .ServerName = SERVERNAME
                 .DatabaseName = DatabaseName
                 .UserID = DBUSERNAME
                 .Password = Dbpassword
                 .IntegratedSecurity = Dbsecurity
             End With
-            crTables = obj_rectype.Database.Tables
+
+            If ClientName = "AASHAAYEN" Then
+                crTables = RPTREC_AASHAAYEN.Database.Tables
+            Else
+                crTables = RPTREC.Database.Tables
+            End If
+
             For Each crTable In crTables
                 crtableLogonInfo = crTable.LogOnInfo
                 crtableLogonInfo.ConnectionInfo = crConnecttionInfo
@@ -49,12 +56,17 @@ Public Class receipt_advice
 
             strsearch = strsearch & "  {receiptmaster.receipt_no}= " & recno & " and {RECEIPT_REPORT.REGNAME}= '" & REGNAME & "' and {ledgermaster.Acc_cmpname} = '" & recname & "' and {receiptmaster.receipt_cmpid} = " & CmpId & " and {receiptmaster.receipt_LOCATIONid} = " & Locationid & " and {receiptmaster.receipt_YEARid} = " & YearId
             CRPO.SelectionFormula = strsearch
-            CRPO.ReportSource = obj_rectype
+
+            If ClientName = "AASHAAYEN" Then
+                CRPO.ReportSource = RPTREC_AASHAAYEN
+            Else
+                CRPO.ReportSource = RPTREC
+            End If
             CRPO.Zoom(100)
             CRPO.Refresh()
 
         Catch Exp As LoadSaveReportException
-            MsgBox("Incorrect path for loading report.", _
+            MsgBox("Incorrect path for loading report.",
                     MsgBoxStyle.Critical, "Load Report Error")
 
         Catch Exp As Exception
@@ -71,11 +83,20 @@ Public Class receipt_advice
 
 
             oDfDopt.DiskFileName = Application.StartupPath & "\RECEIPTREPORT.PDF"
-            expo = obj_rectype.ExportOptions
-            expo.ExportDestinationType = ExportDestinationType.DiskFile
-            expo.ExportFormatType = ExportFormatType.PortableDocFormat
-            expo.DestinationOptions = oDfDopt
-            obj_rectype.Export()
+
+            If ClientName = "AASHAAYEN" Then
+                expo = RPTREC_AASHAAYEN.ExportOptions
+                expo.ExportDestinationType = ExportDestinationType.DiskFile
+                expo.ExportFormatType = ExportFormatType.PortableDocFormat
+                expo.DestinationOptions = oDfDopt
+                RPTREC_AASHAAYEN.Export()
+            Else
+                expo = RPTREC.ExportOptions
+                expo.ExportDestinationType = ExportDestinationType.DiskFile
+                expo.ExportFormatType = ExportFormatType.PortableDocFormat
+                expo.DestinationOptions = oDfDopt
+                RPTREC.Export()
+            End If
 
 
 

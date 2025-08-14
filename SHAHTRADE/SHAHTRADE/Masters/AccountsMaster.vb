@@ -778,57 +778,57 @@ Public Class AccountsMaster
 
 
 
-        If txtpanno.Text.Trim <> "" Then
+        'If txtpanno.Text.Trim <> "" Then
 
-            If CMBDEDUCTEETYPE.Text.Trim = "" Then
-                Ep.SetError(txtpanno, "Select Company Type")
-                bln = False
-            End If
+        '    If CMBDEDUCTEETYPE.Text.Trim = "" Then
+        '        Ep.SetError(txtpanno, "Select Company Type")
+        '        bln = False
+        '    End If
 
-            If txtpanno.Text.Trim.Length <> 10 Then
-                Ep.SetError(txtpanno, "Insert Proper PAN No")
-                bln = False
-            Else
-                'validating PAN NO
-                For x = 1 To Len(txtpanno.Text.Trim)
-                    If x <= 5 Or x = 10 Then
-                        If Asc(txtpanno.Text.Substring(x - 1, 1)) < 65 Or Asc(txtpanno.Text.Substring(x - 1, 1)) > 90 Then
-                            Ep.SetError(txtpanno, "Insert Proper PAN No")
-                            bln = False
-                        End If
-                    Else
-                        If Asc(txtpanno.Text.Substring(x - 1, 1)) < 48 Or Asc(txtpanno.Text.Substring(x - 1, 1)) > 57 Then
-                            Ep.SetError(txtpanno, "Insert Proper PAN No")
-                            bln = False
-                        End If
-                    End If
-                    'CHECKING 4TH ALPHABET WITH DEDUCTEETYPE
-                    'If x = 4 Then
-                    '    If CMBDEDUCTEETYPE.Text.Trim = "Individual" Then
-                    '        If txtpanno.Text.Substring(x - 1, 1) <> "P" Then
-                    '            Ep.SetError(txtpanno, "Insert Proper PAN No")
-                    '            bln = False
-                    '        End If
-                    '    ElseIf CMBDEDUCTEETYPE.Text.Trim = "Firm" Then
-                    '        If txtpanno.Text.Substring(x - 1, 1) <> "F" Then
-                    '            Ep.SetError(txtpanno, "Insert Proper PAN No")
-                    '            bln = False
-                    '        End If
-                    '    ElseIf CMBDEDUCTEETYPE.Text = "Company" Then
-                    '        If txtpanno.Text.Substring(x - 1, 1) <> "C" Then
-                    '            Ep.SetError(txtpanno, "Insert Proper PAN No")
-                    '            bln = False
-                    '        End If
-                    '    ElseIf CMBDEDUCTEETYPE.Text = "HUF" Then
-                    '        If txtpanno.Text.Substring(x - 1, 1) <> "H" Then
-                    '            Ep.SetError(txtpanno, "Insert Proper PAN No")
-                    '            bln = False
-                    '        End If
-                    '    End If
-                    'End If
-                Next x
-            End If
-        End If
+        '    If txtpanno.Text.Trim.Length <> 10 Then
+        '        Ep.SetError(txtpanno, "Insert Proper PAN No")
+        '        bln = False
+        '    Else
+        '        'validating PAN NO
+        '        For x = 1 To Len(txtpanno.Text.Trim)
+        '            If x <= 5 Or x = 10 Then
+        '                If Asc(txtpanno.Text.Substring(x - 1, 1)) < 65 Or Asc(txtpanno.Text.Substring(x - 1, 1)) > 90 Then
+        '                    Ep.SetError(txtpanno, "Insert Proper PAN No")
+        '                    bln = False
+        '                End If
+        '            Else
+        '                If Asc(txtpanno.Text.Substring(x - 1, 1)) < 48 Or Asc(txtpanno.Text.Substring(x - 1, 1)) > 57 Then
+        '                    Ep.SetError(txtpanno, "Insert Proper PAN No")
+        '                    bln = False
+        '                End If
+        '            End If
+        '            'CHECKING 4TH ALPHABET WITH DEDUCTEETYPE
+        '            'If x = 4 Then
+        '            '    If CMBDEDUCTEETYPE.Text.Trim = "Individual" Then
+        '            '        If txtpanno.Text.Substring(x - 1, 1) <> "P" Then
+        '            '            Ep.SetError(txtpanno, "Insert Proper PAN No")
+        '            '            bln = False
+        '            '        End If
+        '            '    ElseIf CMBDEDUCTEETYPE.Text.Trim = "Firm" Then
+        '            '        If txtpanno.Text.Substring(x - 1, 1) <> "F" Then
+        '            '            Ep.SetError(txtpanno, "Insert Proper PAN No")
+        '            '            bln = False
+        '            '        End If
+        '            '    ElseIf CMBDEDUCTEETYPE.Text = "Company" Then
+        '            '        If txtpanno.Text.Substring(x - 1, 1) <> "C" Then
+        '            '            Ep.SetError(txtpanno, "Insert Proper PAN No")
+        '            '            bln = False
+        '            '        End If
+        '            '    ElseIf CMBDEDUCTEETYPE.Text = "HUF" Then
+        '            '        If txtpanno.Text.Substring(x - 1, 1) <> "H" Then
+        '            '            Ep.SetError(txtpanno, "Insert Proper PAN No")
+        '            '            bln = False
+        '            '        End If
+        '            '    End If
+        '            'End If
+        '        Next x
+        '    End If
+        'End If
 
         If ClientName = "SNSMALAD" And cmbstate.Text.Trim = "" Then cmbstate.Text = "Maharashtra"
         If cmbstate.Text.Trim.Length = 0 Then
