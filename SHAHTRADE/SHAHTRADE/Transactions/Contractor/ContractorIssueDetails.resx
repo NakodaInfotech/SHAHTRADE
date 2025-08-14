@@ -171,8 +171,8 @@
   <data name="GTOTALQTY.Caption" xml:space="preserve">
     <value>Total Qty</value>
   </data>
-  <assembly alias="DevExpress.Data.v15.1" name="DevExpress.Data.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-  <data name="GTOTALQTY.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v15.1">
+  <assembly alias="DevExpress.Data.v25.1" name="DevExpress.Data.v25.1, Version=25.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="GTOTALQTY.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v25.1">
     <value>Sum</value>
   </data>
   <data name="GTOTALQTY.Visible" type="System.Boolean, mscorlib">
@@ -187,7 +187,7 @@
   <data name="GTOTALAMT.Caption" xml:space="preserve">
     <value>Total Amount</value>
   </data>
-  <data name="GTOTALAMT.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v15.1">
+  <data name="GTOTALAMT.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v25.1">
     <value>Sum</value>
   </data>
   <data name="GTOTALAMT.Visible" type="System.Boolean, mscorlib">
@@ -209,7 +209,7 @@
     <value>gridbilldetails</value>
   </data>
   <data name="&gt;&gt;gridbilldetails.Type" xml:space="preserve">
-    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v25.1, Version=25.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;gridbilldetails.Parent" xml:space="preserve">
     <value>BlendPanel1</value>
@@ -399,37 +399,37 @@
     <value>gridbill</value>
   </data>
   <data name="&gt;&gt;gridbill.Type" xml:space="preserve">
-    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v25.1, Version=25.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;gsrno.Name" xml:space="preserve">
     <value>gsrno</value>
   </data>
   <data name="&gt;&gt;gsrno.Type" xml:space="preserve">
-    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v25.1, Version=25.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;gdate.Name" xml:space="preserve">
     <value>gdate</value>
   </data>
   <data name="&gt;&gt;gdate.Type" xml:space="preserve">
-    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v25.1, Version=25.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;gname.Name" xml:space="preserve">
     <value>gname</value>
   </data>
   <data name="&gt;&gt;gname.Type" xml:space="preserve">
-    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v25.1, Version=25.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;GTOTALQTY.Name" xml:space="preserve">
     <value>GTOTALQTY</value>
   </data>
   <data name="&gt;&gt;GTOTALQTY.Type" xml:space="preserve">
-    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v25.1, Version=25.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;GTOTALAMT.Name" xml:space="preserve">
     <value>GTOTALAMT</value>
   </data>
   <data name="&gt;&gt;GTOTALAMT.Type" xml:space="preserve">
-    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v25.1, Version=25.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;ToolStripButton1.Name" xml:space="preserve">
     <value>ToolStripButton1</value>
