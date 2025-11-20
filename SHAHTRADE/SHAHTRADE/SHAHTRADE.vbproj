@@ -1015,6 +1015,12 @@
     <Compile Include="Reports\Grid Reports\LedgerDetailsReport.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Reports\Grid Reports\PalathiAaradhanaGridReport.Designer.vb">
+      <DependentUpon>PalathiAaradhanaGridReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Grid Reports\PalathiAaradhanaGridReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Transactions\Accounts\Adv_Receivable_settlement.Designer.vb">
       <DependentUpon>Adv_Receivable_settlement.vb</DependentUpon>
     </Compile>
@@ -2145,6 +2151,9 @@
     <EmbeddedResource Include="Reports\Grid Reports\Interest Calc\InterestCalc_Summary.resx" />
     <EmbeddedResource Include="Reports\Grid Reports\LedgerDetailsReport.resx">
       <DependentUpon>LedgerDetailsReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Grid Reports\PalathiAaradhanaGridReport.resx">
+      <DependentUpon>PalathiAaradhanaGridReport.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Transactions\Accounts\Adv_Receivable_settlement.resx">
       <DependentUpon>Adv_Receivable_settlement.vb</DependentUpon>

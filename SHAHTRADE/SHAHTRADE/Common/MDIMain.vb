@@ -2558,4 +2558,14 @@ SKIPLINE:
             Throw ex
         End Try
     End Sub
+
+    Private Sub PalathiToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PalathiToolStripMenuItem.Click
+        Try
+            Dim OBJPALATHI As New PalathiAaradhanaGridReport
+            OBJPALATHI.MdiParent = Me
+            OBJPALATHI.Show()
+        Catch ex As Exception
+            Throw ex
+        End Try
+    End Sub
 End Class
