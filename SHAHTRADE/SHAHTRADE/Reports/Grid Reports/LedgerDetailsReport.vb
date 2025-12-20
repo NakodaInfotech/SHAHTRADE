@@ -1,5 +1,9 @@
 ﻿
 Imports BL
+Imports DevExpress.XtraGrid
+Imports DevExpress.XtraGrid.Views.Grid
+Imports DevExpress.Export
+Imports System.Windows.Forms
 
 Public Class LedgerDetailsReport
 
