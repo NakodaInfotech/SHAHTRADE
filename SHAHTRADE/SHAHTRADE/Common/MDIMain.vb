@@ -105,7 +105,7 @@ Public Class MDIMain
                         NARRATIONEDIT.Enabled = False
                         HSNEDIT.Enabled = False
                     End If
-
+                    If ClientName = "AIRPRO" Then ToolStripEXCELUPLOAD.Enabled = True
                 ElseIf DTROW(0).ToString = "REGISTER MASTER" Then
                     If DTROW(1).ToString = True Or (DTROW(2) = True) Or (DTROW(3) = True) Or (DTROW(4) = True) Then
                         REG_MASTER.Enabled = True
@@ -1439,10 +1439,13 @@ Public Class MDIMain
                     PURCHASETOOLSTRIP.Visible = False
                     PurchaseToolStripMenuItem.Visible = False
                 End If
+            ElseIf ClientName = "AIRPRO" Then
+                ToolStripEXCELUPLOAD.Visible = True
+
 
             End If
 
-            If ClientName <> "SNSMALAD" Then
+                If ClientName <> "SNSMALAD" Then
                 CONTRACTORISS_TOOL.Visible = False
                 CONTRACTORISS_TOOLSTRIP.Visible = False
                 CONTRACTORREC_TOOL.Visible = False
@@ -2564,6 +2567,16 @@ SKIPLINE:
             Dim OBJPALATHI As New PalathiAaradhanaGridReport
             OBJPALATHI.MdiParent = Me
             OBJPALATHI.Show()
+        Catch ex As Exception
+            Throw ex
+        End Try
+    End Sub
+
+    Private Sub ToolStripEXCELUPLOAD_Click(sender As Object, e As EventArgs) Handles ToolStripEXCELUPLOAD.Click
+        Try
+            Dim objuploadexl As New UploadExcel
+            objuploadexl.MdiParent = Me
+            objuploadexl.Show()
         Catch ex As Exception
             Throw ex
         End Try

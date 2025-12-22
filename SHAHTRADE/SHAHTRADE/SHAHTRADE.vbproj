@@ -1651,6 +1651,12 @@
     <Compile Include="Utilities\MergeLedger.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Utilities\UploadExcel\UploadExcel.Designer.vb">
+      <DependentUpon>UploadExcel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\UploadExcel\UploadExcel.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Utilities\YearTransfer.Designer.vb">
       <DependentUpon>YearTransfer.vb</DependentUpon>
     </Compile>
@@ -2469,6 +2475,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Utilities\MergeLedger.resx">
       <DependentUpon>MergeLedger.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilities\UploadExcel\UploadExcel.resx">
+      <DependentUpon>UploadExcel.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Utilities\YearTransfer.resx">
       <DependentUpon>YearTransfer.vb</DependentUpon>
