@@ -200,10 +200,11 @@ Partial Class MDIMain
         Me.SALERETADD = New System.Windows.Forms.ToolStripMenuItem()
         Me.SALERETEDIT = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator11 = New System.Windows.Forms.ToolStripSeparator()
-        Me.SALERETURN_TOOLSTRIP = New System.Windows.Forms.ToolStripSeparator()
         Me.SALECONSUMPTION_MASTER = New System.Windows.Forms.ToolStripMenuItem()
         Me.SALECONSUMPTIONADD = New System.Windows.Forms.ToolStripMenuItem()
         Me.SALECONSUMPTIONEDIT = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator23 = New System.Windows.Forms.ToolStripSeparator()
+        Me.SALERETURN_TOOLSTRIP = New System.Windows.Forms.ToolStripSeparator()
         Me.ToolStripSeparator22 = New System.Windows.Forms.ToolStripSeparator()
         Me.CONFIG_MASTER = New System.Windows.Forms.ToolStripMenuItem()
         Me.ITEMAVGCONFIG_MASTER = New System.Windows.Forms.ToolStripMenuItem()
@@ -285,6 +286,8 @@ Partial Class MDIMain
         Me.DeleteLogsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.UpdateLogsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator44 = New System.Windows.Forms.ToolStripSeparator()
+        Me.PalathiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator33 = New System.Windows.Forms.ToolStripSeparator()
         Me.ToolStripSeparator153 = New System.Windows.Forms.ToolStripSeparator()
         Me.REGISTER_MAIN = New System.Windows.Forms.ToolStripMenuItem()
         Me.PURCHASEREGISTER = New System.Windows.Forms.ToolStripMenuItem()
@@ -370,12 +373,12 @@ Partial Class MDIMain
         Me.PAYMENT_TOOLSTRIP = New System.Windows.Forms.ToolStripSeparator()
         Me.VOUCHER_TOOL = New System.Windows.Forms.ToolStripButton()
         Me.VOUCHER_TOOLSTRIP = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripEXCELUPLOAD = New System.Windows.Forms.ToolStripButton()
         Me.XtraTabbedMdiManager1 = New DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(Me.components)
         Me.DefaultLookAndFeel1 = New DevExpress.LookAndFeel.DefaultLookAndFeel(Me.components)
         Me.ToolStripMenuItem19 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem20 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator96 = New System.Windows.Forms.ToolStripSeparator()
-        Me.ToolStripSeparator23 = New System.Windows.Forms.ToolStripSeparator()
         Me.MenuStrip.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
         Me.ToolStrip1.SuspendLayout()
@@ -1506,11 +1509,6 @@ Partial Class MDIMain
         Me.ToolStripSeparator11.Name = "ToolStripSeparator11"
         Me.ToolStripSeparator11.Size = New System.Drawing.Size(175, 6)
         '
-        'SALERETURN_TOOLSTRIP
-        '
-        Me.SALERETURN_TOOLSTRIP.Name = "SALERETURN_TOOLSTRIP"
-        Me.SALERETURN_TOOLSTRIP.Size = New System.Drawing.Size(169, 6)
-        '
         'SALECONSUMPTION_MASTER
         '
         Me.SALECONSUMPTION_MASTER.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SALECONSUMPTIONADD, Me.SALECONSUMPTIONEDIT, Me.ToolStripSeparator23})
@@ -1530,6 +1528,16 @@ Partial Class MDIMain
         Me.SALECONSUMPTIONEDIT.Name = "SALECONSUMPTIONEDIT"
         Me.SALECONSUMPTIONEDIT.Size = New System.Drawing.Size(168, 22)
         Me.SALECONSUMPTIONEDIT.Text = "&Edit Existing Entry"
+        '
+        'ToolStripSeparator23
+        '
+        Me.ToolStripSeparator23.Name = "ToolStripSeparator23"
+        Me.ToolStripSeparator23.Size = New System.Drawing.Size(165, 6)
+        '
+        'SALERETURN_TOOLSTRIP
+        '
+        Me.SALERETURN_TOOLSTRIP.Name = "SALERETURN_TOOLSTRIP"
+        Me.SALERETURN_TOOLSTRIP.Size = New System.Drawing.Size(169, 6)
         '
         'ToolStripSeparator22
         '
@@ -2026,7 +2034,7 @@ Partial Class MDIMain
         '
         'OtherReportsToolStripMenuItem
         '
-        Me.OtherReportsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DeleteLogsToolStripMenuItem, Me.UpdateLogsToolStripMenuItem, Me.ToolStripSeparator44})
+        Me.OtherReportsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DeleteLogsToolStripMenuItem, Me.UpdateLogsToolStripMenuItem, Me.ToolStripSeparator44, Me.PalathiToolStripMenuItem, Me.ToolStripSeparator33})
         Me.OtherReportsToolStripMenuItem.Name = "OtherReportsToolStripMenuItem"
         Me.OtherReportsToolStripMenuItem.Size = New System.Drawing.Size(149, 22)
         Me.OtherReportsToolStripMenuItem.Text = "Other Reports"
@@ -2047,6 +2055,17 @@ Partial Class MDIMain
         '
         Me.ToolStripSeparator44.Name = "ToolStripSeparator44"
         Me.ToolStripSeparator44.Size = New System.Drawing.Size(138, 6)
+        '
+        'PalathiToolStripMenuItem
+        '
+        Me.PalathiToolStripMenuItem.Name = "PalathiToolStripMenuItem"
+        Me.PalathiToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
+        Me.PalathiToolStripMenuItem.Text = "Palathi"
+        '
+        'ToolStripSeparator33
+        '
+        Me.ToolStripSeparator33.Name = "ToolStripSeparator33"
+        Me.ToolStripSeparator33.Size = New System.Drawing.Size(138, 6)
         '
         'ToolStripSeparator153
         '
@@ -2440,7 +2459,7 @@ Partial Class MDIMain
         Me.ToolStrip1.AutoSize = False
         Me.ToolStrip1.BackColor = System.Drawing.Color.White
         Me.ToolStrip1.Font = New System.Drawing.Font("Calibri", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.QUOTATION_TOOL, Me.QUOTATION_TOOLSTRIP, Me.CHALLAN_TOOL, Me.CHALLAN_TOOLSTRIP, Me.PURCHASE_TOOL, Me.PURCHASETOOLSTRIP, Me.SALE_TOOL, Me.SALE_TOOLSTRIP, Me.CASHMEMO_TOOL, Me.CASHMEMO_TOOLSTRIP, Me.CONTRACTORISS_TOOL, Me.CONTRACTORISS_TOOLSTRIP, Me.CONTRACTORREC_TOOL, Me.CONTRACTORREC_TOOLSTRIP, Me.RECEIPT_TOOL, Me.RECEIPT_TOOLSTRIP, Me.PAYMENT_TOOL, Me.PAYMENT_TOOLSTRIP, Me.VOUCHER_TOOL, Me.VOUCHER_TOOLSTRIP})
+        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.QUOTATION_TOOL, Me.QUOTATION_TOOLSTRIP, Me.CHALLAN_TOOL, Me.CHALLAN_TOOLSTRIP, Me.PURCHASE_TOOL, Me.PURCHASETOOLSTRIP, Me.SALE_TOOL, Me.SALE_TOOLSTRIP, Me.CASHMEMO_TOOL, Me.CASHMEMO_TOOLSTRIP, Me.CONTRACTORISS_TOOL, Me.CONTRACTORISS_TOOLSTRIP, Me.CONTRACTORREC_TOOL, Me.CONTRACTORREC_TOOLSTRIP, Me.RECEIPT_TOOL, Me.RECEIPT_TOOLSTRIP, Me.PAYMENT_TOOL, Me.PAYMENT_TOOLSTRIP, Me.VOUCHER_TOOL, Me.VOUCHER_TOOLSTRIP, Me.ToolStripEXCELUPLOAD})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 24)
         Me.ToolStrip1.Name = "ToolStrip1"
         Me.ToolStrip1.Size = New System.Drawing.Size(1004, 48)
@@ -2606,6 +2625,17 @@ Partial Class MDIMain
         Me.VOUCHER_TOOLSTRIP.Name = "VOUCHER_TOOLSTRIP"
         Me.VOUCHER_TOOLSTRIP.Size = New System.Drawing.Size(6, 48)
         '
+        'ToolStripEXCELUPLOAD
+        '
+        Me.ToolStripEXCELUPLOAD.AutoSize = False
+        Me.ToolStripEXCELUPLOAD.Enabled = False
+        Me.ToolStripEXCELUPLOAD.Image = Global.SHAHTRADE.My.Resources.Resources.VOUCHER
+        Me.ToolStripEXCELUPLOAD.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripEXCELUPLOAD.Name = "ToolStripEXCELUPLOAD"
+        Me.ToolStripEXCELUPLOAD.Size = New System.Drawing.Size(85, 40)
+        Me.ToolStripEXCELUPLOAD.Text = "Upload Excel"
+        Me.ToolStripEXCELUPLOAD.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        '
         'XtraTabbedMdiManager1
         '
         Me.XtraTabbedMdiManager1.AppearancePage.Header.BackColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(248, Byte), Integer))
@@ -2643,11 +2673,6 @@ Partial Class MDIMain
         '
         Me.ToolStripSeparator96.Name = "ToolStripSeparator96"
         Me.ToolStripSeparator96.Size = New System.Drawing.Size(231, 6)
-        '
-        'ToolStripSeparator23
-        '
-        Me.ToolStripSeparator23.Name = "ToolStripSeparator23"
-        Me.ToolStripSeparator23.Size = New System.Drawing.Size(165, 6)
         '
         'MDIMain
         '
@@ -3032,4 +3057,7 @@ Partial Class MDIMain
     Friend WithEvents SALECONSUMPTIONADD As ToolStripMenuItem
     Friend WithEvents SALECONSUMPTIONEDIT As ToolStripMenuItem
     Friend WithEvents ToolStripSeparator23 As ToolStripSeparator
+    Friend WithEvents PalathiToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ToolStripSeparator33 As ToolStripSeparator
+    Friend WithEvents ToolStripEXCELUPLOAD As ToolStripButton
 End Class
