@@ -43,7 +43,7 @@ Public Class Cmpdetails
     Private Sub Cmpdetails_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 
         Try
-            If UserName <> "Admin" Then
+            If UserName <> "Admin" Or DISCONTINUECLIENT = True Then
                 cmdedit.Enabled = False
                 cmddelete.Enabled = False
                 cmdcreate.Enabled = False
@@ -51,6 +51,7 @@ Public Class Cmpdetails
             End If
 
             fillcmp()
+
         Catch ex As Exception
             If ErrHandle(ex.Message.GetHashCode) = False Then Throw ex
         End Try
@@ -198,6 +199,17 @@ Public Class Cmpdetails
                 MsgBox("Backup Completed")
             End If
 
+        Catch ex As Exception
+            Throw ex
+        End Try
+    End Sub
+
+    Private Sub Cmpdetails_Shown(sender As Object, e As EventArgs) Handles Me.Shown
+        Try
+            If DISCONTINUECLIENT = True Then
+                cmdcreate.Enabled = False
+                cmdedit.Enabled = False
+            End If
         Catch ex As Exception
             Throw ex
         End Try

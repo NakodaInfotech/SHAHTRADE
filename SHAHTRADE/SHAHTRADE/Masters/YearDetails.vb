@@ -66,7 +66,7 @@ Public Class YearDetails
 
     Private Sub YearDetails_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Try
-            If UserName <> "Admin" Then
+            If UserName <> "Admin" Or DISCONTINUECLIENT = True Then
                 cmdcreate.Enabled = False
                 cmddelete.Enabled = False
             End If
@@ -166,6 +166,16 @@ Public Class YearDetails
             MsgBox("Accounting Year Deleted Successfully")
             fillYEAR()
 
+        Catch ex As Exception
+            Throw ex
+        End Try
+    End Sub
+
+    Private Sub YearDetails_Shown(sender As Object, e As EventArgs) Handles Me.Shown
+        Try
+            If DISCONTINUECLIENT = True Then
+                cmdcreate.Enabled = False
+            End If
         Catch ex As Exception
             Throw ex
         End Try

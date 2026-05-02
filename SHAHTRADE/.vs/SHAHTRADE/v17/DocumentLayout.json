@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\GIT\\SHAHTRADE\\SHAHTRADE\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{9AA38EFB-20A1-4061-8E3F-19E78669B8B4}|SHAHTRADE\\SHAHTRADE.vbproj|d:\\git\\shahtrade\\shahtrade\\shahtrade\\masters\\usermaster.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{9AA38EFB-20A1-4061-8E3F-19E78669B8B4}|SHAHTRADE\\SHAHTRADE.vbproj|solutionrelative:shahtrade\\masters\\usermaster.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AA38EFB-20A1-4061-8E3F-19E78669B8B4}|SHAHTRADE\\SHAHTRADE.vbproj|d:\\git\\shahtrade\\shahtrade\\shahtrade\\masters\\usermaster.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{9AA38EFB-20A1-4061-8E3F-19E78669B8B4}|SHAHTRADE\\SHAHTRADE.vbproj|solutionrelative:shahtrade\\masters\\usermaster.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,31 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserMaster.vb",
-              "DocumentMoniker": "D:\\GIT\\SHAHTRADE\\SHAHTRADE\\SHAHTRADE\\Masters\\UserMaster.vb",
-              "RelativeDocumentMoniker": "SHAHTRADE\\Masters\\UserMaster.vb",
-              "ToolTip": "D:\\GIT\\SHAHTRADE\\SHAHTRADE\\SHAHTRADE\\Masters\\UserMaster.vb",
-              "RelativeToolTip": "SHAHTRADE\\Masters\\UserMaster.vb",
-              "ViewState": "AgIAABMBAAAAAAAAAAAmwCABAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-09-30T06:57:07.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserMaster.vb [Design]",
-              "DocumentMoniker": "D:\\GIT\\SHAHTRADE\\SHAHTRADE\\SHAHTRADE\\Masters\\UserMaster.vb",
-              "RelativeDocumentMoniker": "SHAHTRADE\\Masters\\UserMaster.vb",
-              "ToolTip": "D:\\GIT\\SHAHTRADE\\SHAHTRADE\\SHAHTRADE\\Masters\\UserMaster.vb [Design]",
-              "RelativeToolTip": "SHAHTRADE\\Masters\\UserMaster.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-09-30T06:57:03.588Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }
